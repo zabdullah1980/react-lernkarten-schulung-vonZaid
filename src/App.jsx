@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes,
 } from "react-router-dom";
@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="site-shell">
         <Header />
 
@@ -124,7 +124,7 @@ function App() {
           </p>
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
